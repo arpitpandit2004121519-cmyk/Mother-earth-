@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Web - Earth Satellite View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="space-background">
+        <!-- Animated Sun -->
+        <div class="sun"></div>
+        
+        <!-- Stars -->
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+        
+        <!-- Main Container -->
+        <div class="container">
+            <header>
+                <h1 class="title">🌍 Space Web</h1>
+                <p class="subtitle">Live Earth Satellite View</p>
+            </header>
+            
+            <div class="earth-container">
+                <div class="earth">
+                    <div class="earth-surface"></div>
+                    <div class="clouds"></div>
+                </div>
+                <div class="orbit-ring"></div>
+            </div>
+            
+            <div class="info-panel">
+                <div class="info-card">
+                    <h3>🌍 Earth Rotation Speed</h3>
+                    <div class="speed-display">
+                        <span id="rotation-speed">1670</span>
+                        <span class="unit">km/h</span>
+                    </div>
+                    <p class="description">At the equator</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>🚀 Orbital Speed</h3>
+                    <div class="speed-display">
+                        <span id="orbital-speed">107226</span>
+                        <span class="unit">km/h</span>
+                    </div>
+                    <p class="description">Around the Sun</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>⏱️ Time to Sun</h3>
+                    <div class="speed-display">
+                        <span id="time-to-sun">8</span>
+                        <span class="unit">minutes</span>
+                    </div>
+                    <p class="description">Light travel time</p>
+                </div>
+            </div>
+            
+            <div class="fun-facts">
+                <h3>🌌 Space Facts</h3>
+                <div class="fact-container">
+                    <p id="current-fact">Earth completes one rotation every 24 hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
